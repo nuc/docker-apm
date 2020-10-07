@@ -216,8 +216,8 @@ apm-server:
   # Enable Real User Monitoring (RUM) Support. By default RUM is disabled.
   # RUM does not support token based authorization. Enabled RUM endpoints will not require any authorization
   # token configured for other endpoints.
-  #rum:
-    #enabled: false
+  rum:
+    enabled: false
 
     #event_rate:
 
